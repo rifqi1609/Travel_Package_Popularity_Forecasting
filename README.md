@@ -1,8 +1,8 @@
 # Travel Package Popularity Forecasting
 
 ## Repository Outline
-1. description.md - Penjelasan gambaran umum project
-2. notebook.ipynb - Notebook for build DBSCAN model
+1. README.md - Project overview
+2. notebook.ipynb - Notebook for build time-series analysis model
 3. dataset.csv - Dataset for training model
 4. deployment - Folder consists of script for deployment
 
