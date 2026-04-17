@@ -1,27 +1,39 @@
-# Travel Package Popularity Forecasting
+# 🏝️ Travel Package Popularity Forecasting
 
-## Repository Outline
-1. README.md - Project overview
-2. notebook.ipynb - Notebook for build time-series analysis model
-3. dataset.csv - Dataset for training model
-4. deployment - Folder consists of script for deployment
+> **A time-series forecasting model to predict destination popularity and optimize travel agency operations.**
 
-## Problem Background
+---
+
+## 📖 Problem Background
 The travel industry is highly influenced by seasonal trends and shifting consumer preferences. For a travel agency, staying ahead of these fluctuations is critical for optimizing marketing budgets and operational resources. To maintain a competitive edge, the company requires a data-driven approach to understand the historical demand for destinations like Pari Island and anticipate how its popularity will evolve in the future.
 
-## Project Output
-The primary goal of this project is to forecast the popularity of tour packages to Pari Island for the next 12 months. By utilizing Time-Series Analysis algorithms—such as the ARIMA/SARIMAX model currently being developed—this project aims to provide accurate projections that will assist the company in strategic planning and decision-making for the upcoming year.
+## 🎯 Project Output
+The primary goal of this project is to forecast the popularity of tour packages to Pari Island for the next 12 months. By utilizing Time-Series Analysis algorithms—such as the ARIMA and SARIMAX models currently being developed—this project aims to provide accurate projections that will assist the company in strategic planning and decision-making for the upcoming year.
 
-## Data
-This data was collected from Google Trends containing information about popularity of "Pulau Pari".
+## 🗂️ Repository Outline
 
-## Method
-This project implement ARIMA and SARIMA algorithms
+    📦 Travel-Package-Popularity-Forecasting
+     ┣ 📜 README.md         # Project overview
+     ┣ 📓 notebook.ipynb    # Notebook for building the time-series analysis model
+     ┣ 📊 dataset.csv       # Dataset for training the model
+     ┗ 📂 deployment        # Folder consisting of scripts for deployment
 
-## Stacks
-Language    : Python
-Tools       : Visual Studio Code, Streamlit, HuggingFace
+## 📊 Data
+This data was collected from **Google Trends**, containing information about the popularity of the search term **"Pulau Pari"**.
 
-## Reference
-- HuggingFace Deployment - https://huggingface.co/spaces/RifqiAs/Travel_Package_Popularity_Forecasting 
-- Presentation - https://www.canva.com/design/DAHAVWzWjfk/DCtudwqltBjOasjCwj9Xbg/edit?utm_content=DAHAVWzWjfk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+## ⚙️ Methodology
+This project implements the following Time-Series Analysis algorithms:
+* 📈 **ARIMA** (AutoRegressive Integrated Moving Average)
+* 📉 **SARIMA(X)** (Seasonal AutoRegressive Integrated Moving Average)
+
+## 💻 Tech Stack
+* **Language:** Python 🐍
+* **Tools:** Visual Studio Code, Streamlit, HuggingFace 🤗
+
+## 🚀 Reference & Deployment
+The model has been deployed and the presentation is available through the links below:
+
+- 🔗 **[HuggingFace Deployment: Travel Package Forecasting](https://huggingface.co/spaces/RifqiAs/Travel_Package_Popularity_Forecasting)**  
+- 📊 **[Project Presentation on Canva](https://www.canva.com/design/DAHAVWzWjfk/DCtudwqltBjOasjCwj9Xbg/edit?utm_content=DAHAVWzWjfk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
+---
